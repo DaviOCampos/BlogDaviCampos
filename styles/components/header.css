@@ -13,8 +13,7 @@ nav {
 }
 
 nav li {
-  text-align: center;
-  padding: 14px 16px;
+  padding: relative;
   text-decoration: none;
   font-size: 17px;
   cursor: pointer;
@@ -36,7 +35,7 @@ nav li.logo figure {
 }
 
 nav li.logo figure img {
-  width: 100%;
+  width: 80%;
 }
 
 nav li.icon {
@@ -45,7 +44,7 @@ nav li.icon {
 }
 
 nav li.socials {
-  padding: 0;
+  padding: relative;
 }
 
 nav.responsive li {
@@ -128,6 +127,7 @@ nav .socials i:hover {
   nav li.socials {
     position: absolute;
     right: 0;
+    
   }
 
   nav .socials ul {
