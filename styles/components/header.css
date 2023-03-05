@@ -13,6 +13,7 @@ nav {
 }
 
 nav li {
+  text-align: center;
   margin-top: 0px;
   text-decoration: none;
   font-size: 20px;
@@ -32,7 +33,7 @@ nav li.logo {
 
 nav li.logo figure {
   line-height: 0;
-  width: 50px;
+  width: 80px;
 }
 
 nav li.logo figure img {
@@ -45,7 +46,7 @@ nav li.icon {
 }
 
 nav li.socials {
-  display: inline-block;
+  padding:0;
 }
 
 nav.responsive li {
@@ -115,8 +116,7 @@ nav .socials i:hover {
 
   nav li.logo {
     margin-right: 50px;
-    
-    
+        
     
   }
 
@@ -136,9 +136,7 @@ nav .socials i:hover {
 
   nav li.socials {
     position: absolute;
-    right: 0;
-    top: 0;
-    
+    right: 0;   
     
   }
 
