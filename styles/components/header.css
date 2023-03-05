@@ -13,9 +13,9 @@ nav {
 }
 
 nav li {
-  padding: relative;
+  margin-top: 0px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -27,15 +27,16 @@ nav li.logo {
   background-color: white;
   display: inline-block;
   margin-right: 0;
+  margin-top: 0;
 }
 
 nav li.logo figure {
   line-height: 0;
-  width: 100px;
+  width: 50px;
 }
 
 nav li.logo figure img {
-  width: 80%;
+  width: 100%;
 }
 
 nav li.icon {
@@ -44,13 +45,14 @@ nav li.icon {
 }
 
 nav li.socials {
-  padding: relative;
+  display: inline-block;
 }
 
 nav.responsive li {
   float: none;
   display: block !important;
   text-align: left;
+
 }
 
 nav.responsive {
@@ -67,6 +69,7 @@ nav li a {
   color: #b3b3b3;
   text-decoration: none;
   transition: all 0.5s ease;
+  
 }
 
 nav li a:hover {
@@ -80,16 +83,20 @@ nav li a.current {
 nav li i {
   color: black;
   font-size: 25px !important;
+
 }
 
 nav .socials ul {
   display: flex;
+    
 }
 
 nav .socials i {
   color: #b3b3b3;
   font-size: 25px !important;
   transition: all 0.5s ease;
+
+  
 }
 
 nav .socials i:hover {
@@ -107,7 +114,10 @@ nav .socials i:hover {
   }
 
   nav li.logo {
-    margin-right: 100px;
+    margin-right: 50px;
+    
+    
+    
   }
 
   nav .icon {
@@ -127,6 +137,8 @@ nav .socials i:hover {
   nav li.socials {
     position: absolute;
     right: 0;
+    top: 0;
+    
     
   }
 
